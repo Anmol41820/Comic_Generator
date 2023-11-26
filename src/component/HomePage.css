@@ -1,0 +1,66 @@
+/* HomePage.css */
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.App_outter{
+  background-image: url("../anime.jpg");
+    /* height: 100%; */
+    /* background-size: cover; */
+    display:grid; 
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+  .bg-image {
+    background-image: url("../bg.png");
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .title {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .instructions {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .instructions ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .instructions li {
+    margin-bottom: 10px;
+  }
+  
+  .get-started-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .get-started-button:hover {
+    background-color: #45a049;
+  }
+  
+  
